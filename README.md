@@ -26,9 +26,76 @@ A full-stack mobile platform for sharing neighborhood resources — borrow, lend
 | Frontend | React Native (Expo) |
 | Backend | Node.js + Express.js |
 | Realtime | Socket.IO |
-| Database | MongoDB Atlas Cluster |
+| Database | Railway.com's MongoDB service |
 | Media CDN | Cloudinary |
 | Hosting | Railway.com |
+
+---
+
+## Getting Started
+
+> Run all commands from inside `backend` or `mobile` — not from the repo root.
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Create a `.env` file in `backend/` using `.env.example` as reference:
+
+```env
+PORT=5000
+MONGO_URI=<mongo-url>
+JWT_SECRET=<secret-here>
+JWT_EXPIRES_IN=7d
+NODE_ENV=development
+```
+
+This backend uses Mongoose, so your MongoDB Atlas connection string goes directly into `MONGO_URI`. Replace the placeholder values with the Atlas username, password, cluster name, and app name from your MongoDB connection screen.
+
+### Mobile
+
+```bash
+cd mobile
+npm install
+npm run start
+```
+
+Platform targets: `npm run android` · `npm run ios` · `npm run web`
+
+> Configure API base URL via `EXPO_PUBLIC_API_BASE_URL` in your environment.
+
+---
+
+## API Endpoints
+
+All routes are prefixed with `/api`. Protected routes require `Authorization: Bearer <token>`.
+
+| Route | Description |
+|---|---|
+| `/api/auth` | Register, login |
+| `/api/items` | Item CRUD |
+| `/api/borrow-requests` | Request lifecycle |
+| `/api/messages` | Conversations |
+| `/api/notifications` | Notification feed |
+| `/api/reviews` | Ratings and reviews |
+| `/api/search` | Item search |
+| `/api/uploads` | Media uploads |
+| `/api/admin` | Admin operations |
+
+---
+
+## Data Seeding
+
+```bash
+cd backend
+npm run seed
+```
+
+Seeds items, categories, and borrow requests from `backend/data/`.
 
 ---
 
