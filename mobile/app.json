@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "nearshare-mobile",
+    "slug": "nearshare-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#90EE90"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#90EE90"
+      },
+      "package": "com.nearshare.mobile"
+    },
+    "web": {
+      "favicon": "./assets/adaptive.png"
+    }
+  }
+}

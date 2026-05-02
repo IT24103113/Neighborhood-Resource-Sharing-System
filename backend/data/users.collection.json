@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Mr Administrator",
+    "email": "admin@admin.local",
+    "password": "password",
+    "phone": "+94770000001",
+    "address": "123 Admin Street, Colombo 1",
+    "role": "admin",
+    "is_verified": true
+  },
+  {
+    "name": "Pasan",
+    "email": "pasan@example.com",
+    "password": "password123",
+    "phone": "+94771000001",
+    "address": "45 Lake Road, Colombo 5",
+    "role": "user",
+    "is_verified": true
+  },
+  {
+    "name": "Pasan 16109",
+    "email": "pasan.16109@gmail.com",
+    "password": "password123",
+    "phone": "+94771000002",
+    "address": "18 River View, Kandy",
+    "role": "user",
+    "is_verified": true
+  },
+  {
+    "name": "Panduka",
+    "email": "panduka@example.com",
+    "password": "password123",
+    "phone": "+94771000003",
+    "address": "22 Station Road, Galle",
+    "role": "user",
+    "is_verified": true
+  },
+  {
+    "name": "Hasith",
+    "email": "hasith@example.com",
+    "password": "password123",
+    "phone": "+94771000004",
+    "address": "39 Green Lane, Colombo 6",
+    "role": "user",
+    "is_verified": true
+  },
+  {
+    "name": "Nadun",
+    "email": "nadun@example.com",
+    "password": "password123",
+    "phone": "+94771000005",
+    "address": "77 Castle Lane, Colombo 4",
+    "role": "user",
+    "is_verified": true
+  },
+  {
+    "name": "Bimal",
+    "email": "bimal@example.com",
+    "password": "password123",
+    "phone": "+94771000006",
+    "address": "56 Market Road, Colombo 3",
+    "role": "user",
+    "is_verified": true
+  }
+]

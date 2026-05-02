@@ -1,0 +1,114 @@
+[
+  {
+    "owner_email": "pasan@example.com",
+    "title": "Bosch Drill Machine",
+    "description": "Cordless drill with charger and two batteries. Works perfectly for home repairs.",
+    "category": "tools",
+    "condition": "good",
+    "address": "112 Park Avenue, Colombo 5",
+    "location": { "type": "Point", "coordinates": [79.8642, 6.9031] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "pasan.16109@gmail.com",
+    "title": "Mountain Bicycle",
+    "description": "Medium-size mountain bike, recently serviced, ideal for city rides.",
+    "category": "sports equipment",
+    "condition": "like_new",
+    "address": "24 Main Street, Kandy",
+    "location": { "type": "Point", "coordinates": [80.6337, 7.2906] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "panduka@example.com",
+    "title": "Electric Rice Cooker",
+    "description": "1.8L rice cooker with keep-warm function and measuring cup.",
+    "category": "kitchen items",
+    "condition": "good",
+    "address": "88 Green Lane, Galle",
+    "location": { "type": "Point", "coordinates": [80.2170, 6.0535] },
+    "image_urls": [],
+    "is_available": true
+  },
+  
+  {
+    "owner_email": "hasith@example.com",
+    "title": "Portable Projector",
+    "description": "Compact 1080p projector for movie nights and presentations.",
+    "category": "electronics",
+    "condition": "like_new",
+    "address": "9 College Road, Colombo 6",
+    "location": { "type": "Point", "coordinates": [79.8612, 6.8743] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "nadun@example.com",
+    "title": "Bookshelf",
+    "description": "5-tier wooden bookshelf in solid condition.",
+    "category": "furniture",
+    "condition": "good",
+    "address": "77 Castle Lane, Colombo 4",
+    "location": { "type": "Point", "coordinates": [79.8569, 6.8910] },
+    "image_urls": [],
+    "is_available": false
+  },
+  {
+    "owner_email": "nadun@example.com",
+    "title": "Chess Set",
+    "description": "Classic wooden chess set with foldable board.",
+    "category": "games",
+    "condition": "new",
+    "address": "21 New Road, Colombo 7",
+    "location": { "type": "Point", "coordinates": [79.8736, 6.9147] },
+    "image_urls": [],
+    "is_available": true
+  },
+  
+  {
+    "owner_email": "bimal@example.com",
+    "title": "Tennis Racket",
+    "description": "Lightweight racket with fresh grip tape and cover.",
+    "category": "sports equipment",
+    "condition": "good",
+    "address": "17 Side Road, Colombo 3",
+    "location": { "type": "Point", "coordinates": [79.8528, 6.9132] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "pasan@example.com",
+    "title": "Coffee Machine",
+    "description": "Automatic coffee machine with milk frother and timer.",
+    "category": "kitchen items",
+    "condition": "like_new",
+    "address": "123 Admin Street, Colombo 1",
+    "location": { "type": "Point", "coordinates": [79.8452, 6.9317] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "hasith@example.com",
+    "title": "Board Game Collection",
+    "description": "Family board games including strategy and party games.",
+    "category": "games",
+    "condition": "good",
+    "address": "9 College Road, Colombo 6",
+    "location": { "type": "Point", "coordinates": [79.8612, 6.8743] },
+    "image_urls": [],
+    "is_available": true
+  },
+  {
+    "owner_email": "nadun@example.com",
+    "title": "Garden Hose",
+    "description": "25m garden hose with spray nozzle and reel.",
+    "category": "gardening",
+    "condition": "good",
+    "address": "77 Castle Lane, Colombo 4",
+    "location": { "type": "Point", "coordinates": [79.8569, 6.8910] },
+    "image_urls": [],
+    "is_available": true
+  }
+]
