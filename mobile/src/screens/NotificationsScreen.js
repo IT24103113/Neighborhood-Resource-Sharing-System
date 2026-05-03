@@ -6,6 +6,8 @@ import { getMyNotifications, markNotificationRead, markAllNotificationsRead } fr
 import { useAuth } from "../context/AuthContext";
 import { useNotifications } from "../context/NotificationContext";
 
+// Map each notification "type" string → an icon name from the Feather set.
+
 const TYPE_ICONS = { 
   borrow_request_created: "plus-circle", 
   borrow_request_approved: "check-circle",
